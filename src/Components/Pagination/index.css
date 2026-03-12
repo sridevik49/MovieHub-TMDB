@@ -1,0 +1,15 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 30px;
+}
+
+span{
+    text-align: center;
+    padding: 13px 5px;
+    font-size: 18px;
+    color: #e0d9f0; /* soft lavender text */  
+    transition: all 0.3s ease;
+}
+

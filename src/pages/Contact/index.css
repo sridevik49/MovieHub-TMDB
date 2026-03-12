@@ -1,0 +1,111 @@
+/* General Styles */
+.contact-page {
+  font-family: Arial, sans-serif;
+  color: #e0d9f0; /* soft lavender text */
+  padding: 20px;
+  background-color: #1c0f2e; /* app dark purple */
+}
+
+/* Header Styles */
+.contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-header h1 {
+  font-size: 2.2rem;
+  color: #8a4fff; /* vibrant purple title */
+}
+
+.contact-header p {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #dcd0f5; /* lighter lavender */
+}
+
+/* Content Layout */
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact-details,
+.contact-form {
+  flex: 1 1 300px;
+  background: #24153f; /* slightly lighter purple */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(138, 79, 255, 0.3); /* soft purple glow */
+}
+
+/* Details Section */
+.contact-details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #a36fff; /* lighter purple heading */
+}
+
+.contact-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-details li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #dcd0f5;
+}
+
+/* Form Section */
+.contact-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #a36fff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #e0d9f0;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #8a4fff; /* purple border */
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #2a1b4d; /* dark purple input background */
+  color: #f0e6ff;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+/* Submit Button */
+.submit-button {
+  display: inline-block;
+  background-color: #8a4fff; /* purple button */
+  color: #f0e6ff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #a36fff; /* lighter purple hover */
+  transform: translateY(-2px);
+}

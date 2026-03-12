@@ -1,0 +1,39 @@
+/* Home Container */
+.Home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* keeps your original spacing style */
+    align-items: flex-start;      /* align cards to top for neat rows */
+    gap: 25px;                    /* slightly more space between cards */
+    padding: 20px;                /* space around container edges */
+    margin: 0 auto;
+    max-width: 1400px;            /* keeps layout from stretching too much on large screens */
+    transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .Home {
+        gap: 20px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Home {
+        flex-direction: column; /* stack cards vertically on mobile */
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+    }
+}
+
+/* Optional: subtle hover lift on cards inside Home */
+.Home .card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.Home .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
