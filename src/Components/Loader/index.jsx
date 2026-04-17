@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./index.scss";
 
 const Loader = ({ size = 50, color = "#8a4fff" }) => {
   return (

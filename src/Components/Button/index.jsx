@@ -1,4 +1,4 @@
-import "./index.css"
+import "./index.scss"
 
 export function Button({ text, onClick }) {
     return (

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./index.css";
+import "./index.scss";
 
 function ContactPage() {
   const [formData, setFormData] = useState({
@@ -83,7 +83,9 @@ function ContactPage() {
             ></textarea>
           </div>
 
-          <button type="submit" className="submit-button">Submit</button>
+          <button type="submit" className="submit-button" mailto="sridevik1909@gamil.com">
+            Submit
+          </button>
         </form>
       </div>
     </div>

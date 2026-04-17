@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button} from "../Button"
-import "./index.css"
+import "./index.scss"
 const index = ({currentPage, totalPages,handleNext, handlePrev}) => {
   return (
     <div className='pagination'>

@@ -16,12 +16,12 @@
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
 
-/* Hover Effect */
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  /* Hover Effect */
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
 }
 
 /* Card Image */
@@ -60,12 +60,15 @@
   .card-title {
     font-size: 16px;
   }
+
   .card-description {
     font-size: 13px;
   }
+
   .card-date {
     font-size: 12px;
   }
+
   .card-image {
     height: 140px;
   }

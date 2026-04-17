@@ -1,4 +1,4 @@
-import "./index.css"
+import "./index.scss"
 
 export function Card({ children }) {
     return (
@@ -26,8 +26,8 @@ export function CardDate({date}){
     )
 }
 
-export function CardDescription({description}){
+export function CardReview({vote_average}){
     return(
-        <p className="card-description">{description}</p>
+        <p className="card-description">{vote_average}</p>
     )
 }

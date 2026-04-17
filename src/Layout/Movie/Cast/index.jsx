@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { fetchMovieCast } from '../../../api'
-import "./index.css"
+import "./index.scss"
 
 const index = ({id}) => {
 

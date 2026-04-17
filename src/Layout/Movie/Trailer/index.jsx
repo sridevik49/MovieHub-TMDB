@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { fetchMovieTrailer } from '../../../api/index';
 import YouTube from 'react-youtube';
-import "./index.css";
+import "./index.scss";
 
 const index = ({ id }) => {
   const [trailer, setTrailer] = useState([]);

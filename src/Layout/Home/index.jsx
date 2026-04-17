@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Card, CardTitle, CardImage, CardDescription, CardDate} from "../../Components/Card";
-import "./index.css";
+import { Card, CardTitle, CardImage, CardReview, CardDate} from "../../Components/Card";
+import "./index.scss";
 
 const Home = ({ movie }) => {
 
@@ -18,7 +18,9 @@ const Home = ({ movie }) => {
 
             <CardTitle title={item.title} />
             <CardDate date={item.release_date} />
-            <CardDescription description={item.overview} />
+             <p style={{padding: '15px', paddingBottom: '5px 0 !important' , paddingTop: '5px'}}>Rating:⭐ {item.vote_average}</p> 
+
+           
           </Card>
         );
       })}

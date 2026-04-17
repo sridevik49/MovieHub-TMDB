@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import "./index.css";
+import "./index.scss";
 import { fetchMovieDetails} from "../../api";
 import Trailer from "./Trailer";
 import Cast from "./Cast"
